@@ -1,4 +1,6 @@
-originalword = "Hans"
+import sys
+
+originalword = input("Geben Sie ein Wort ein: ")
 letters = 0
 
 for c in originalword:
@@ -6,8 +8,13 @@ for c in originalword:
 
 print("Anzahl Buchstaben:", letters)
 
+newword = ""
 count = letters - 1
 while (count != -1):
- print(originalword[count])
+ newword = newword + originalword[count]
+ #sys.stdout.write(originalword[count])
+ #print(originalword[count], end="", sep="")
  count = count - 1
+
+print(newword)
     
