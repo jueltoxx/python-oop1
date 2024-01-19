@@ -1,1 +1,0 @@
-print("Habe einen grossen lümmel")
