@@ -1,3 +1,10 @@
 zahl = 5
+value = 1
+count = 1
 
-print("elloß")
+while (count <= zahl):
+    print("the count is", count)
+    value = value * count
+    count = count+1
+
+print(value)
