@@ -2,9 +2,9 @@ startnum = int(input("Geben Sie die Startnummer ein: "))
 endnum = int(input("Geben Sie die Endnummer ein: "))
 value = 0
 
-while (startnum < endnum):
+while (startnum <= endnum):
     quad = startnum * startnum
-    print(quad)
+    #print(quad)
     value = value + quad
     startnum = startnum + 1
 
