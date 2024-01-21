@@ -18,7 +18,20 @@ def printatree(anzahllinien):
         sterne(anzsterne)
         print("")
 
+    #Stamm zeichnen
+    if linien.stop > 3:   
+        stammschlaege = linien.stop * 2 - 2
+        leerschlaege(stammschlaege)
+        print("*")
+        leerschlaege(stammschlaege)
+        print("*")
+    elif linien.stop > 2 and linien.stop < 4:
+        stammschlaege = linien.stop * 2 - 2
+        leerschlaege(stammschlaege)
+        print("*")
 
+
+#Userintegration    
 hoehe = int(input("Geben Sie die Höhe des Baumes ein: "))
 hoehe += 1
 printatree(hoehe)
