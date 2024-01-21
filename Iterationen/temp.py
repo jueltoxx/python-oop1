@@ -8,4 +8,3 @@ for letter in word1:
 
     if letterw1 == word2[n]:
         print("Zeichen",n,"Matched")
-        n += 1
