@@ -1,5 +1,3 @@
-import sys
-
 originalword = input("Geben Sie ein Wort ein: ")
 letters = 0
 
