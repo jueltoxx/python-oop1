@@ -1,4 +1,0 @@
-liste = ["penis","hiv","Pokken","kreuzschwanz"]
-
-for arschloch in liste:
-    print(str(arschloch[3]))
