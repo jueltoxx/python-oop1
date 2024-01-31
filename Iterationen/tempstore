@@ -1,15 +1,4 @@
-summe = 0
-produkt = 1
+liste = ["penis","hiv","Pokken","kreuzschwanz"]
 
-num = 1
-while num < 10:
-    if num % 2 == 0:
-        summe = num + summe
-        produkt = num * produkt
-        num +=1
-    else:
-        num +=1
-
-print(summe)
-print(produkt)
-    
+for arschloch in liste:
+    print(str(arschloch[3]))

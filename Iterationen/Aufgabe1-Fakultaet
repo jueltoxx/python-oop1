@@ -1,6 +1,6 @@
-zahl = 6
+zahl = 5
 value = 1
-count = 1
+count = 2
 
 while (count <= zahl):
     print("the count is", count)
