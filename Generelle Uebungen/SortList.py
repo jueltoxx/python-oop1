@@ -1,9 +1,9 @@
-data_list = [1,102012,4,46553,33,22,-2548,-2548,-2548]
+data_list = []
 new_list = []
 
 while data_list:
+    print("test")
     minimum = data_list[0]  # arbitrary number in list
-    print("m8 I'm fcking wasted")
     for x in data_list:
         if x < minimum:
             minimum = x
