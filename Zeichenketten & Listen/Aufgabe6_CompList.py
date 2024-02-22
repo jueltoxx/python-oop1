@@ -1,4 +1,4 @@
-liste1 = [1,2,3,4]
+liste1 = [1,2,5,5]
 liste2 = [4,4,3,4]
 
 for i in liste1:
@@ -6,3 +6,5 @@ for i in liste1:
         if i == j:
             print("True")
             quit()
+        else:
+            print("False")
